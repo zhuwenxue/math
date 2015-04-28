@@ -10,13 +10,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-
-/**
- * @author bulargy.j.bai
- * @mail bulargy@gmail.com
- * @´´½¨Ê±¼ä£ºMar 11, 2008
- * @ÃèÊö£º
- */
 @RunWith(Parameterized.class)
 public class MathTest {
 	int faciend;
@@ -41,11 +34,11 @@ public class MathTest {
 	public void testDivide() {
 		assertEquals(3,Math.divide(9,3));
 		assertEquals(3,Math.divide(10,3));
-		Math.divide(10,0);//³ıÊı²»ÄÜÎª0£¬»áÅ×³öÒì³£
+		Math.divide(10,0);//é™¤æ•°ä¸èƒ½ä¸º0ï¼Œä¼šæŠ›å‡ºå¼‚å¸¸
 
 	}
 
-	//@Ignore("ºöÂÔ³Ë·¨²âÊÔ")
+	//@Ignore("å¿½ç•¥ä¹˜æ³•æµ‹è¯•")
 	@Test
 	public void testMultiple() {
 		assertEquals(result,Math.multiple(faciend,multiplicator));
